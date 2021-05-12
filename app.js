@@ -22,8 +22,8 @@ app.post("/", function(req, res){
  
   const listId = "954d52ea88";
   const subscribingUser = {
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
+      firstName: req.body.fname,
+      lastName: req.body.lname,
       email: req.body.email
   };
  
